@@ -1,0 +1,6 @@
+I wasn't entirely happy with some of the boilerplates that exist for Node + Babel,
+I'm using this environment mostly for testing ES7 and further, but you can configure
+the Babel stage for whatever.
+
+This just has some simple/sane defaults for ESLINT and package.json with mocha
+sinon/chai.
