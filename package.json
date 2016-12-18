@@ -24,7 +24,6 @@
     "eslint-plugin-async-await": "*",
     "eslint-plugin-babel": "*",
     "mocha": "*",
-    "rewire": "",
     "sinon": "*"
   },
   "babel": {
