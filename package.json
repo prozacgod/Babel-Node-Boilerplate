@@ -1,0 +1,37 @@
+{
+  "author": "Prozacgod <prozacgod@gmail.com>",
+  "license": "ISC",
+  "name": "pzc-babel-template",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register $(find test/ -path '*test_*.js')",
+    "start": "babel-node src/index.js",
+    "babel": "babel-node"
+  },
+  "dependencies": {
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-stage-0": "*",
+    "chai": "*",
+    "eslint": "*",
+    "eslint-plugin-async-await": "*",
+    "eslint-plugin-babel": "*",
+    "mocha": "*",
+    "rewire": "",
+    "sinon": "*"
+  },
+  "babel": {
+    "plugins": [],
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  }
+}
