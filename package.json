@@ -1,7 +1,7 @@
 {
   "author": "Prozacgod <prozacgod@gmail.com>",
   "license": "ISC",
-  "name": "pzc-babel-template",
+  "name": "Babel-Node-Boilerplate",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
